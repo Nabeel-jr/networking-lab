@@ -7,7 +7,7 @@ do
 done
 if [ $n == $rev ]
 then
-	echo "$n is palindrom"
+	echo "$n is a palindrom"
 else
-	echo "not palindrom"
+	echo "$n is not a palindrom"
 fi
