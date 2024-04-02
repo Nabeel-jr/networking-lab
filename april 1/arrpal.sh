@@ -1,7 +1,6 @@
 #!/bin/bash
 read -p "enter string: " n
 len=${#n}
-rev=""
 for ((i=$len-1;i>=0;i--))
 do
 	rev="$rev${n:$i:1}"
