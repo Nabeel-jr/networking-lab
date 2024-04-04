@@ -1,6 +1,7 @@
 #!/bin/bash
 declare -a ar
 read -p "enter numbers " ar
+echo "Array elements are:  "
 echo "${ar[@]}"
 for i in ${ar[@]}
 do
