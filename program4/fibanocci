@@ -1,0 +1,17 @@
+#!/bin/bash
+lim=10
+a=0
+b=0
+c=1
+sum=0
+echo "fibnocci series upto limit 10:"
+while [ $b -le 10 ]
+do
+        echo $b
+        sum=`expr $sum + $b`
+        a=$b
+        b=$c
+        c=`expr $a + $b`
+done
+echo "sum of fibnocci : $sum"
+
